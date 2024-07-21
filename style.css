@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(https://variety.com/wp-content/uploads/2022/02/Harry-Potter-and-the-Sorcerers-Stone.jpg?w=1000&h=667&crop=1);
+    background-size: cover;
+}
+
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+  }
+  .logo{
+    margin-left: -15vw;
+    top: 0;
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+  }
+  
+  nav {
+    /* background: #000; */
+    padding: .7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* flex-direction: column; */
+    list-style: none;
+    padding-left: 20vw;
+    text-align: center;
+    margin-right: -15vw;
+
+  }
+  
+  nav li {
+    margin: .5rem 0;
+  }
+  
+  nav a {
+    color: #ccc;
+    text-decoration: none;
+    padding-right: 20px;
+
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+
+
+/* CSS */
+.button-62 {
+  background: linear-gradient(to bottom right, #060a4b, #0b529e);
+  border: 0;
+  border-radius: 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow .2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-62:not([disabled]):focus {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+.button-62:not([disabled]):hover {
+  box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  
+}
+
+.dummy-text {
+    z-index: 2;
+    position: absolute;
+    top: 100vh;
+    /* background: rgb(64, 106, 53); */
+
+    line-height: 30px;
+    font-weight: 400;
+    padding: 40px;
+    color: #ffffff;
+    width: 90%;
+    left: 0;
+}
+
+.dummy-img {
+    z-index: 2;
+    position: absolute;
+    top: 75vh;
+    /* background-color: black; */
+    padding: 20px;
+    width: 40%;
+    right: 0;
+    display: flex;
+    gap: 10px;
+}
+
+header {
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+    text-align: center;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background-image: url(https://preview.redd.it/cxeimwflyo881.png?width=800&format=png&auto=webp&s=2160be26be2b962a1b9048c2e6236bbfe643c71c);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    margin-top:-4vh;
+}
+header .head-text{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.head-text h1{
+    color: #c0ca73;
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    /* text-shadow: 2px 2px #9797b5; */
+    /* font-family: "Agbalumo", system-ui; */
+}
+
+span {
+  font-size: 70px;
+  font-family: "Freehand", cursive;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 60px;
+    column-gap: 30px;
+}
