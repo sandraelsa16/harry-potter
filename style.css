@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-image: url(https://variety.com/wp-content/uploads/2022/02/Harry-Potter-and-the-Sorcerers-Stone.jpg?w=1000&h=667&crop=1);
+    background-image: url(https://www.superherohype.com/wp-content/uploads/sites/4/2023/04/Harry-Potter-featured.jpg);
     background-size: cover;
 }
 
@@ -123,13 +123,18 @@ li {
     position: absolute;
     top: 100vh;
     /* background: rgb(64, 106, 53); */
-
     line-height: 30px;
     font-weight: 400;
     padding: 40px;
     color: #ffffff;
     width: 90%;
     left: 0;
+}
+
+.dummy-text img {
+    padding-top: 30px;
+    padding-left: 20px;
+    column-gap: 5px;
 }
 
 .dummy-img {
@@ -142,6 +147,10 @@ li {
     right: 0;
     display: flex;
     gap: 10px;
+}
+
+.img1 {
+  margin-left: 50px;
 }
 
 header {
